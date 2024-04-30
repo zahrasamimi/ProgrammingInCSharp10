@@ -1,0 +1,22 @@
+[
+  {
+    "ID": 1,
+    "Username": "Parham_dr",
+    "FirstName": "Parham",
+    "LastName": "Darvishi",
+    "Gender": 1,
+    "Email": "x@gmail.com",
+    "PhoneNumber": "09129564205",
+    "BirthDate": null
+  },
+  {
+    "ID": 2,
+    "Username": "Amin2",
+    "FirstName": "Amin",
+    "LastName": "Amini",
+    "Gender": 1,
+    "Email": "A@gmail.com",
+    "PhoneNumber": "09109263866",
+    "BirthDate": null
+  }
+]
