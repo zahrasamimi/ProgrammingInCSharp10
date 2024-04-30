@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseBackend.ProgrammingInCSharp10\BaseBackend.ProgrammingInCSharp10.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseBackend.ProgrammingInCSharp10">
+      <HintPath>..\BaseBackend.ProgrammingInCSharp10\bin\Debug\net6.0\BaseBackend.ProgrammingInCSharp10.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Content\Images\channelcsharp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
